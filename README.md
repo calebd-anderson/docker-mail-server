@@ -4,7 +4,9 @@ This is a simple [Docker](https://www.docker.com/) containerized mail server tha
 `docker build -t fedora:mail .`
 ## Run
 `docker run --name mailserver -e APP_DOMAIN=chemlab.edu --rm -it -p 80:80 -p 25:25 -p 143:143 -p 110:110 fedora:mail`
-### Thanks to
+# Thanks to
 https://github.com/Codegyre/DockerPostfixDovecot/blob/master/Dockerfile
-### Production Ready Mail Server
+# Alternatives
+https://mailcatcher.me
+- Production-ready email server  
 https://github.com/docker-mailserver/docker-mailserver
