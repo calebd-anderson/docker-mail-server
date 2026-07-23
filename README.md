@@ -7,6 +7,7 @@ This is a simple [Docker](https://www.docker.com/) containerized mail server tha
 # Thanks to
 https://github.com/Codegyre/DockerPostfixDovecot/blob/master/Dockerfile
 # Alternatives
-https://mailcatcher.me
+- [MailCatcher](https://github.com/sj26/mailcatcher)
+- [MailDev](https://github.com/maildev/maildev)
 - Production-ready email server  
-https://github.com/docker-mailserver/docker-mailserver
+  - https://github.com/docker-mailserver/docker-mailserver
